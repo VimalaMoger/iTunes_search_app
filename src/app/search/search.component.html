@@ -1,0 +1,36 @@
+<!-- using click handler on the search button -->
+ 
+<!-- <form class="form-inline">
+	<div class="form-group">
+		<input type="search"
+		       class="form-control"
+		       placeholder="Enter search string"
+		       #search>
+	</div>
+	<!-- <button type="button" class="btn btn-primary" (click)="onSearch(search.value)">Search</button> -->
+ <!-- <button type="button" class="btn btn-primary" (click)="doSearch(search.value)">Search</button>
+</form>  -->
+
+<!-- using the formControl directive  -->
+
+<form class="form-inline">
+    <div class="form-group">
+      <input type="search"
+             class="form-control"
+             placeholder="Enter search string"
+             [formControl]="searchField">
+    </div>
+</form>
+ 
+<div class="text-center">
+    <p class="lead"
+       *ngIf="loading">Loading...</p>
+</div> 
+
+<div  *ngFor="let item of results | async">{{item.artistId}} : {{item.artistName}} : {{item.trackName}}
+    <a  href="artist/{{item.artistId}}">Artist</a>  
+</div>
+
+ <div  *ngFor="let item of results$">{{item | json}}</div>
+
+<!-- <pre>{{ results$ | json }}</pre> -->
