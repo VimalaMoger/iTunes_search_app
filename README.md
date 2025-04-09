@@ -1,3 +1,4 @@
 Created Music Search application and added pages for Artist, Track and Album listings, Header, Home, and Search. Created intermediate service, that uses http library to make requests. Made http calls via Promises, also Observables, custom headers with the requests and handled errors. Implemented Client side routing(requested response stored within browser)-Single Page Application, mapping of URLs to components done via route configuration. 
+
 Router Guards to navigate between routes via router, and via template using routerLink directive
 Shown to the user the currently active route by using routerLinkActive directive, variable parameters to routes via Parameterized routes, used ActivatedRoute to pass State/Id value to the component Called the functions from activated route subscribe callback, and configured child routes(nested routes) in Artist page to render other components(Tracks and Albums or Videos)
