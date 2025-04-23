@@ -20,7 +20,7 @@
 ## Contents 
 ```md
   Components generated: Artist, Track and Album listings, Header, Home, and Search
-  Libraries: HTTP library, HTTP with Promises, HTTP with Observables, Reactive Extensions for JavaScript(RxJS - implementation of Observables for JavaScript)
+  HTTP library, HTTP with Promises, HTTP with Observables, Reactive Extensions for JavaScript(RxJS - implementation of Observables for JavaScript)
   Routing Configuration, Parameterized and Nested Routes, Router Guards
 ```
 <br>
