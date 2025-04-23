@@ -3,15 +3,16 @@
 > Created Music Search application and added pages for <b> Artist, Track and Album listings, Header, Home, and Search</b>.
   * Created service that uses HTTP library to make requests.
   * Made HTTP calls via Promises, and Observables, custom headers with the requests.
-  * Implemented ***Client-side*** routing(requested response stored within browser) as known as ***Single Page Application***, mapping of URLs to components done via route configuration. 
+  * Implemented ***Client-side*** routing to store response within browser using ***Single Page Application***
 
 > Router Guards to navigate between routes via router, and via template using routerLink directive.
-> Called the functions from activated route subscribe callback, and configured child routes(nested routes) in Artist page to render other components(Tracks and Albums or Videos).
+
+> configured child routes in Artist page to render other components -Tracks/Albums/Videos.
 
   ## Tasks
 
-- [x] Defined and configured the different URLs (routes) 
-- [x] Configured navigation between the routes on the client side so the browser doesn’t send a request to the server
+- [x] Defined and configured routes for different URLs
+- [x] Configured navigation between the routes on the client-side
 - [x] Used Path location strategies in Angular
 - [x] Parameterized routes 
 - [x] Implemented nested routes
